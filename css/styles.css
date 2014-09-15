@@ -1,0 +1,55 @@
+.game-table {
+	width: 50%;
+	margin: 30px auto;
+	text-align: center;
+	line-height: 100px;
+}
+
+.game-table tr:nth-child(n + 2) {
+	border-top: 1px solid rgb(221, 221, 221);
+}
+
+.game-table td {
+	font-size: 30px;
+	font-weight: bold;
+	width: 100px;
+	height: 100px;
+}
+
+.game-table td:nth-child(n + 2) {
+	border-left: 1px solid rgb(221, 221, 221);
+}
+
+.player, .turn, .score {
+	color: grey;
+}
+
+.dashboard {
+	margin: 10px;
+}
+
+.dashboard h5 {
+	padding: 10px 0;
+}
+.great-title {
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.previous-games td {
+	border: 1px solid lightgray;
+	padding: 5px;
+}
+
+.padded {
+	margin: 10px 0;
+}
+
+.red {
+	color: red;
+}
+
+.blue {
+	color: blue;
+}

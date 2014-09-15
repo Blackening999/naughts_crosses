@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Game</title>
+	<meta name="author" content="Vladimir Katansky">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<div>
+		<div class="great-title"><h1>Naughts and Crosses</h1></div>
+		<span class="pull-left dashboard col-sm-3">
+			<h5>Game #: <span class="game"></span></h5>	
+			<h5>Current Player: <span class="player"></span></h5>
+			<h5>Current Turn: <span class="turn"></span></h5>
+			<h5>Score(X / O): <span class="score"></span></h5>	
+			<h3>Previous Games</h3>
+			<a href="#" class="btn btn-danger padded clear-history">Clear history</a>
+			<table class="previous-games">
+				<tbody></tbody>
+				<a href="#" class="btn btn-primary padded return-to-game hidden">Return to the game</a>
+			</table>
+		</span>
+		<table class="game-table col-sm-9" id="gameTable">
+			<tbody></tbody>
+		</table>
+	</div>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="js/logic.js"></script>
+</body>
+</html>
