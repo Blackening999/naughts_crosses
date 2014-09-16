@@ -109,7 +109,7 @@ $(document).ready(function() {
 					if (i === 1) diagonalLine.b += arr[i][k];
 					diagonalLine.a += arr[i][k];
 				} else {
-					if (i !== 1) diagonalLine.b += arr[i][k]
+					if (k !== 1 && i !== 1) diagonalLine.b += arr[i][k]
 				}
 
 			if (horizontLine === 3 || verticalLine === 3 || diagonalLine.a === 3 || diagonalLine.b === 3) {
